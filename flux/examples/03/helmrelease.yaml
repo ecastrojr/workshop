@@ -22,7 +22,7 @@ spec:
       retries: -1
   interval: 1m
   values:
-    replicaCount: 6
+    replicaCount: 3
     image:
       repository: nginx:alpine
       pullPolicy: IfNotPresent
